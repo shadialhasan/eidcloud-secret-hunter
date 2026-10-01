@@ -1,0 +1,12 @@
+{
+  "description": "High-velocity secrets and credential scanner detecting leaked API keys, tokens, and private keys in code & Git",
+  "topics": [
+    "eidcloud",
+    "security-scanner",
+    "secret-detection",
+    "api-keys",
+    "git-scanner",
+    "devsecops",
+    "php8"
+  ]
+}

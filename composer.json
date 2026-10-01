@@ -1,0 +1,34 @@
+{
+  "name": "eidcloud/secret-hunter",
+  "description": "High-velocity secrets and credential scanner detecting leaked API keys, tokens, and private keys in code & Git",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eng. MHD. Shadi AL-Hasan",
+      "email": "mhd.shadi.alhasan@gmail.com",
+      "homepage": "https://github.com/shadialhasan"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "EidCloud\\SecretHunter\\": "src/"
+    },
+    "files": [
+      "src/autoload.php"
+    ]
+  },
+  "bin": [
+    "bin/eidcloud-secrets"
+  ],
+  "scripts": {
+    "test": "php tests/run_tests.php",
+    "scan": "php bin/eidcloud-secrets scan . --mask"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
